@@ -1,4 +1,4 @@
-use core::panicking::AssertKind::Match;
+
 
 #[warn(non_snake_case)]
 
@@ -6,12 +6,13 @@ fn main() {
     println!("Hello, world!");
     println!("Hello, Mani!");
     for_loop();
+    match_coder();
 }
 
 fn for_loop(){
     for x in 1..12{
         println!("x is equal to {}", x);
-        print!("some\n other")
+
     }
 }
 
@@ -24,4 +25,6 @@ fn match_coder(){
         1..=1000 => "unknown",
         _ => "invalid",
     };
+
+    println!("The country name with country code {} is {}", country_code,country)
 }
