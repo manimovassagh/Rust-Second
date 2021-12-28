@@ -6,6 +6,8 @@ fn main() {
     for_loop();
     match_coder();
     match_coder();
+    match_coder();
+
 }
 
 fn for_loop(){
