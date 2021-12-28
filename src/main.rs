@@ -5,6 +5,7 @@ fn main() {
     println!("Hello, Mani!");
     for_loop();
     match_coder();
+    match_coder();
 }
 
 fn for_loop(){
