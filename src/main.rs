@@ -1,3 +1,5 @@
+use std::net::TcpListener;
+
 #[warn(non_snake_case)]
 
 fn main() {
@@ -7,6 +9,14 @@ fn main() {
     match_coder();
     match_coder();
     match_coder();
+
+    let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
+
+    for stream in listener.incoming() {
+        let stream = stream.unwrap();
+
+        println!("Connection established!");
+    }
 
 }
 
