@@ -1,5 +1,4 @@
-pub fn run(){
-    let numbers=[1,2,3,4,5];
-    println!("{:?}",numbers);
-
+pub fn run() {
+    let numbers: [i32; 5] = [1, 2, 3, 4, 5];
+    println!("{:?}", numbers);
 }
