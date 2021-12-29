@@ -13,7 +13,7 @@ fn main() {
     match_coder();
     match_coder();
     some::run();
-    strings::run();
+    // strings::run();
     touples::run();
 
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
