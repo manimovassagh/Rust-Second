@@ -1,6 +1,7 @@
 mod some;
 mod strings;
 mod touples;
+mod arrays;
 
 use std::net::TcpListener;
 
@@ -15,6 +16,7 @@ fn main() {
     some::run();
     // strings::run();
     touples::run();
+    arrays::run();
 
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
 
