@@ -14,7 +14,7 @@ fn main() {
     match_coder();
     match_coder();
     some::run();
-    // strings::run();
+    strings::run();
     touples::run();
     arrays::run();
 
