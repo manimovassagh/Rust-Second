@@ -1,4 +1,4 @@
 pub(crate) fn run (){
     let name ="mani";
-    println!("This is my {}", name)
+    println!("This is my name : {}", name)
 }
