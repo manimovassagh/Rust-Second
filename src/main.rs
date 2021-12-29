@@ -1,3 +1,5 @@
+mod some;
+
 use std::net::TcpListener;
 
 #[warn(non_snake_case)]
@@ -9,7 +11,7 @@ fn main() {
     match_coder();
     match_coder();
     match_coder();
-
+some::run();
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
 
     for stream in listener.incoming() {
