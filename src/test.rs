@@ -1,3 +1,3 @@
 pub fn tester(){
-  println!("This is a test");
+  println!("Happy new year! 2022");
 }
