@@ -6,4 +6,5 @@ pub fn run() {
     );
     println!("Tuple is Printing");
     println!("Tuple is Printing");
+    println!("Tuple is Printing");
 }
