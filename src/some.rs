@@ -9,6 +9,7 @@ pub(crate) fn run (){
     println!("{}",string_sample);
     println!("Length of The String is {}",string_sample.len());
     println!("Length of The String is {}",string_sample.len());
+    println!("Length of The String is {}",string_sample.len());
    
 
 }
