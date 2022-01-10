@@ -17,6 +17,9 @@ fn main() {
     strings::run();
     touples::run();
     arrays::run();
+    strings::run();
+    touples::run();
+    arrays::run();
     
 
     // let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
